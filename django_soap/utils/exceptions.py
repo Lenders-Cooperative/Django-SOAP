@@ -38,3 +38,9 @@ class FaultCodeException(Exception):
         self.message = message
         self.code = code
         self.detail = detail
+
+class NodeNotFoundError(Exception):
+    """
+    Exception raised when XML element not found
+    """
+    ...

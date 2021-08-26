@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
                 ('status', models.IntegerField(blank=True, null=True)),
                 ('headers', models.TextField(blank=True, null=True)),
                 ('body', models.TextField(blank=True, null=True)),
-                ('request_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='djangosoap.soaprequestlogger')),
+                ('request_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='django_soap.soaprequestlogger')),
             ],
         ),
     ]

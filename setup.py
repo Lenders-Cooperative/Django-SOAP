@@ -52,7 +52,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Stephen Lightcap',
     author_email='you@example.com',
-    url='https://github.com/sal-git/django-soap',
+    url='https://github.com/Lenders-Cooperative/Django-SOAP',
     packages=[
         'django_soap',
     ],
